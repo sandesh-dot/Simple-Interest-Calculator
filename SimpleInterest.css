@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    background: linear-gradient(navy,  pink);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 420px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3a3a3a;
+  }
+  
+  label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #3a3a3a;
+  }
+  
+  input {
+    margin-bottom: 20px;
+    border: none;
+    font-size: 16px;
+    border-bottom: 2px solid #3a3a3a;
+    color: #3a3a3a;
+    padding: 2px 15px;
+    width: 100%;
+    transition: border-bottom 0.3s ease;
+  }
+  
+  input:focus {
+    outline: none;
+    border-bottom: 2.4px solid #5a8f1a;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .time-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  select {
+    width: 100px;
+    border: 1px solid #3a3a3a;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  select:focus {
+    outline: none;
+    border-color: #5a8f1a;
+  }
+  
+  button {
+    display: block;
+    background-color: navy;
+    border: none;
+    color: #ffffff;
+    margin: 30px auto 0 auto;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: lightpink;
+  }
+  
+  #result1{
+    background-color: lightblue;
+    margin-top: 30px;
+    color: #3a3a3a;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  #result2 {
+    background-color: lightblue;
+    margin-top: 30px;
+    color: #3a3a3a;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 5px;
+  }
